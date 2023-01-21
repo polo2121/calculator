@@ -2,16 +2,16 @@ import React from 'react'
 import Button from './Button'
 
 const Input = ({ handleInput }) => {
-    console.log(handleInput);
+    // console.log(handleInput);
     const calText = [
         { color: 'text-black', bgColor: "bg-stone-300", name: "C" },
         { color: 'text-black', bgColor: "bg-stone-300", name: "(" },
         { color: 'text-black', bgColor: "bg-stone-300", name: ")" },
-        { color: 'text-white', bgColor: "bg-amber-500", name: "%" },
+        { color: 'text-white', bgColor: "bg-amber-500", name: "AC" },
         { color: 'text-black', bgColor: "bg-stone-300", name: "7" },
         { color: 'text-black', bgColor: "bg-stone-300", name: "8" },
         { color: 'text-black', bgColor: "bg-stone-300", name: "9" },
-        { color: 'text-white', bgColor: "bg-amber-500", name: "X" },
+        { color: 'text-white', bgColor: "bg-amber-500", name: "*" },
         { color: 'text-black', bgColor: "bg-stone-300", name: "4" },
         { color: 'text-black', bgColor: "bg-stone-300", name: "5" },
         { color: 'text-black', bgColor: "bg-stone-300", name: "6" },

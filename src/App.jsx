@@ -5,7 +5,7 @@ function App() {
 
 
   return (
-    <div className="className='w-full  bg-black flex flex-col items-center justify-center">
+    <div className="className='w-full h-screen bg-black flex flex-col items-center justify-center">
       <Calculator />
     </div>
   )
